@@ -1,1 +1,40 @@
 Actividad 1 Sistema Hotel
+
+CASO 2: ESTRUCTURA DE SELECCIÓN MÚLTIPLE
+
+Objetivo:
+Permitir al cliente seleccionar el tipo de habitación.
+
+Pseudocódigo:
+
+Inicio
+
+Mostrar "Seleccione un tipo de habitación"
+
+Mostrar "1 = Habitación Simple"
+Mostrar "2 = Habitación Doble"
+Mostrar "3 = Habitación Matrimonial"
+Mostrar "4 = Habitación Suite"
+
+Leer opcion
+
+Segun opcion Hacer
+
+1:
+    Mostrar "Ha seleccionado Habitación Simple"
+
+2:
+    Mostrar "Ha seleccionado Habitación Doble"
+
+3:
+    Mostrar "Ha seleccionado Habitación Matrimonial"
+
+4:
+    Mostrar "Ha seleccionado Habitación Suite"
+
+De Otro Modo:
+    Mostrar "Opción inválida"
+
+FinSegun
+
+Fin
