@@ -1,1 +1,23 @@
 Actividad 1 Sistema Hotel
+CASO 1: ESTRUCTURA CONDICIONAL
+
+Objetivo:
+Verificar si una habitación está disponible.
+
+Pseudocódigo:
+
+Inicio
+
+Mostrar "Ingrese estado de la habitación"
+Mostrar "1 = Disponible"
+Mostrar "0 = Ocupada"
+
+Leer estado
+
+Si estado = 1 Entonces
+    Mostrar "Habitación disponible"
+Sino
+    Mostrar "Habitación ocupada"
+FinSi
+
+Fin
