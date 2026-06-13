@@ -1,0 +1,29 @@
+CASO: ESTRUCTURA CONDICIONAL ANIDADA
+
+OBJETIVO:
+Verificar si un cliente tiene reserva y si realizó el pago correspondiente.
+
+PSEUDOCÓDIGO
+
+Inicio
+
+Mostrar "¿Tiene reserva?"
+Leer reserva
+
+Si reserva = 1 Entonces
+
+   Mostrar "¿La reserva está pagada?"
+   Leer pago
+
+   Si pago = 1 Entonces
+      Mostrar "Puede ingresar al hotel"
+   Sino
+      Mostrar "Debe realizar el pago"
+   FinSi
+
+Sino
+   Mostrar "No tiene reserva"
+
+FinSi
+
+Fin
