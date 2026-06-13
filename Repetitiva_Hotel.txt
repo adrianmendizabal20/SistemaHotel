@@ -1,0 +1,19 @@
+CASO: ESTRUCTURA REPETITIVA
+
+OBJETIVO:
+Solicitar la cantidad de huéspedes hasta ingresar un número válido.
+
+PSEUDOCÓDIGO
+
+Inicio
+
+Hacer
+
+   Mostrar "Ingrese cantidad de huéspedes"
+   Leer huespedes
+
+Mientras huespedes <= 0
+
+Mostrar "Registro correcto"
+
+Fin
