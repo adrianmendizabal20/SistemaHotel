@@ -1,0 +1,35 @@
+using System;
+
+class Program
+{
+    // Método que verifica si existen habitaciones disponibles
+    static bool VerificarDisponibilidad(int disponibles, int solicitadas)
+    {
+        return solicitadas <= disponibles;
+    }
+
+    static void Main(string[] args)
+    {
+        // Solicitar cantidad de habitaciones disponibles
+        Console.Write("Habitaciones disponibles: ");
+        int disponibles = Convert.ToInt32(Console.ReadLine());
+
+        // Solicitar cantidad de habitaciones solicitadas
+        int solicitadas = Convert.ToInt32(Console.ReadLine());
+
+        // Llamar al método enviando parámetros
+        bool resultado = VerificarDisponibilidad(disponibles, solicitadas);
+
+        // Mostrar resultado según la disponibilidad
+        if (resultado)
+        {
+            Console.WriteLine("Reserva aprobada.");
+        }
+        else
+        {
+            Console.WriteLine("No hay habitaciones suficientes.");
+        }
+
+        Console.ReadKey();
+    }
+}
